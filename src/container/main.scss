@@ -1,39 +1,44 @@
-.container{
+.container {
   max-width: 70vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  //flex-direction: column;
   align-items: center;
 
-  .container-box{
+  .container-box {
     width: 100%;
-    button{
+
+    .abc {
+      color: white;
+    }
+
+    button {
       width: 100%;
     }
-    .title{
+
+    .title {
       width: 100%;
       display: flex;
       justify-content: center;
       gap: 100px;
 
-      button{
+      button {
         padding: 10px;
       }
     }
-    .pomo-time{
+
+    .pomo-time {
       display: flex;
       flex-direction: column;
       height: 50vh;
-      //border: 1px solid orange;
       display: flex;
       align-items: center;
       justify-content: center;
     }
   }
-  .setting{
-    //text-align: start;
 
+  .setting {
+    //text-align: start;
     height: 100%;
   }
 }

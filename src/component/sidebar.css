@@ -21,12 +21,27 @@ a {
   color: inherit;
 }
 
+
 /* Layout */
-.s-layout {
+
+.dark-theme {
+  display: flex;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+}
+
+.light-theme {
   display: flex;
   width: 100%;
   min-height: 100vh;
+  color: black;
 }
+
+/*.main-content {*/
+/*  background-color: red;*/
+/*}*/
 
 .s-layout__content {
   display: flex;
